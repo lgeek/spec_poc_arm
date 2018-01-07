@@ -1,6 +1,6 @@
 PoC code implementing variant 3a of the Meltdown attack for AArch64. This allows reading all (potentially excluding registers whose read has side effects - not verified) system registers from user mode, including those which should only be accessible from the EL1 (kernel), EL2 (hypervisor) and EL3 (secure monitor) modes.
 
-See the [ARM whitepaper]((https://developer.arm.com/support/security-update)) and the [Meltdown vulnerability](https://spectreattack.com/).
+See the [ARM whitepaper](https://developer.arm.com/support/security-update) and the [Meltdown vulnerability](https://spectreattack.com/).
 
 Confirmed to be working on Cortex-A57 and Cortex-A72.
 
