@@ -15,6 +15,24 @@ Infoleaks of potentially sensitive data from the OS, hypervisor or secure monito
 3) obtaining valid addresses of software running in EL1-EL3 (from the registers containing pointers to the page tables, the exception vector, etc) - potentially useful in developing or deploying exploits for other vulnerabilities in this software
 
 
+Affected implementations
+------------------------
+
+Only showing AArch64 implementations.
+
+| Core         | Vulnerable according to vendor                           | Tested with this exploit |
+|--------------|----------------------------------------------------------|--------------------------|
+| Cortex-A35   | [no](https://developer.arm.com/support/security-update)  | no                       |
+| Cortex-A53   | [no](https://developer.arm.com/support/security-update)  | yes, not vulnerable      |
+| Cortex-A57   | [yes](https://developer.arm.com/support/security-update) | yes, vulnerable          |
+| Cortex-A72   | [yes](https://developer.arm.com/support/security-update) | yes, vulnerable          |
+| Cortex-A73   | [no](https://developer.arm.com/support/security-update)  | no                       |
+| Cortex-A75   | [no](https://developer.arm.com/support/security-update)  | no                       |
+| APM X-Gene 2 | N/A                                                      | yes, not vulnerable      |
+
+Please open a pull request if you've tested on any other implementations.
+
+
 Running it
 ----------
 
