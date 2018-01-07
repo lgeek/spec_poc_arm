@@ -152,7 +152,7 @@ int read_register(uint64_t *val, uint32_t op0, uint32_t op1, uint32_t crn, uint3
 
       valid = true;
       for (int r = 0; r < 10 && valid; r++) {
-        spec_read_wrapper(probe, &zrbf[3], bit);
+        spec_read_wrapper(probe, &zrbf[zrbf_stride*3], bit);
         if (read_bit != prev_bit) {
           valid = false;
         }
