@@ -20,15 +20,16 @@ Affected implementations
 
 Only showing AArch64 implementations.
 
-| Core         | Vulnerable according to vendor                           | Tested with this exploit |
-|--------------|----------------------------------------------------------|--------------------------|
-| Cortex-A35   | [no](https://developer.arm.com/support/security-update)  | no                       |
-| Cortex-A53   | [no](https://developer.arm.com/support/security-update)  | yes, not vulnerable      |
-| Cortex-A57   | [yes](https://developer.arm.com/support/security-update) | yes, vulnerable          |
-| Cortex-A72   | [yes](https://developer.arm.com/support/security-update) | yes, vulnerable          |
-| Cortex-A73   | [no](https://developer.arm.com/support/security-update)  | no                       |
-| Cortex-A75   | [no](https://developer.arm.com/support/security-update)  | no                       |
-| APM X-Gene 2 | N/A                                                      | yes, not vulnerable      |
+| Core             | Vulnerable according to vendor                           | Tested with this exploit |
+|------------------|----------------------------------------------------------|--------------------------|
+| ARM Cortex-A35   | [no](https://developer.arm.com/support/security-update)  | no                       |
+| ARM Cortex-A53   | [no](https://developer.arm.com/support/security-update)  | yes, not vulnerable      |
+| ARM Cortex-A57   | [yes](https://developer.arm.com/support/security-update) | yes, vulnerable          |
+| ARM Cortex-A72   | [yes](https://developer.arm.com/support/security-update) | yes, vulnerable          |
+| ARM Cortex-A73   | [no](https://developer.arm.com/support/security-update)  | no                       |
+| ARM Cortex-A75   | [no](https://developer.arm.com/support/security-update)  | no                       |
+| APM X-Gene 2     | N/A                                                      | yes, not vulnerable      |
+| Cavium ThunderX2 | no                                                       | yes, not vulnerable      |
 
 Please open a pull request if you've tested on any other implementations.
 
