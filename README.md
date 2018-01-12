@@ -30,6 +30,7 @@ Only showing AArch64 implementations.
 | ARM Cortex-A75   | [no](https://developer.arm.com/support/security-update)  | no                       |
 | APM X-Gene 2     | N/A                                                      | yes, not vulnerable      |
 | Cavium ThunderX2 | no                                                       | yes, not vulnerable      |
+| Qualcomm Kryo (Snapdragon 820) | N/A                                        | yes, not vulnerable      |
 
 Please open a pull request if you've tested on any other implementations.
 
